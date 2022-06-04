@@ -1,0 +1,1 @@
+chmod u-s /home/flag01/flag01 #unset del eiud 

